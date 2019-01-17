@@ -244,7 +244,7 @@
       float: left;
       margin-right: 31px;
     }
-    .Limara-tusi{
+    .Limara-tusi {
       h2 {
         color: #212121;
         opacity: 0.9;
@@ -348,27 +348,33 @@ footer {
   }
   .social {
     border-top: solid 1px #ffffff;
-    i {
-      margin-top: 26px;
-      background-color: #ffffff;
-      color: #4d4d4d;
-      font-size: 15px;
-      line-height: 27px;
-      margin-right: 9px;
-      width: 27px;
-      text-align: center;
-      &:hover {
-        color: #ffffff;
-        background-color: #0084b4;
+    .icon {
+      float: left;
+      i {
+        margin-top: 26px;
+        background-color: #ffffff;
+        color: #4d4d4d;
+        font-size: 15px;
+        line-height: 27px;
+        margin-right: 9px;
+        width: 27px;
+        text-align: center;
+        &:hover {
+          color: #ffffff;
+          background-color: #0084b4;
+        }
       }
     }
     p {
-      text-align: center;
+      margin-top: 32px;
+      margin-left: -220px;
       font-size: 16px;
       font-family: Montserrat;
       letter-spacing: 0.96px;
       color: #ffffff;
       margin-right: 0;
+      display: inline-block;
+      text-align: center;
     }
   }
 }
